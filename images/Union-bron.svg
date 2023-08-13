@@ -1,0 +1,21 @@
+<svg width="77" height="59" viewBox="0 0 77 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Union" filter="url(#filter0_b_48_2019)">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M4 0C1.79086 0 0 1.79086 0 4V57C0 58.1046 0.895431 59 2 59C3.10457 59 4 58.1046 4 57V36C4 30.4772 8.47715 26 14 26H65C71.6274 26 77 20.6274 77 14V12C77 5.37258 71.6274 0 65 0H4Z"
+              fill="url(#paint0_linear_48_2019)"/>
+    </g>
+    <defs>
+        <filter id="filter0_b_48_2019" x="-8" y="-8" width="93" height="75" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_48_2019"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_48_2019" result="shape"/>
+        </filter>
+        <linearGradient id="paint0_linear_48_2019" x1="19.0253" y1="0.427057" x2="19.0239" y2="58.9999"
+                        gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" stop-opacity="0.2"/>
+            <stop offset="1" stop-color="white" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+</svg>
