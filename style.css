@@ -11,7 +11,8 @@
 .header {
   border-radius: 20px;
   background-color: rgba(7, 29, 91, 0.15);
-  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
   margin-left: auto;
   margin-right: auto;
   max-width: 704px;
@@ -84,7 +85,8 @@
   position: absolute;
   border-radius: 6px;
   background: #ffcdcd;
-  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   padding: 4px 6px 3px;
   transform: rotate(-3deg);
   left: 9px;
@@ -105,7 +107,8 @@
 .main-block__static-tag {
   border-radius: 1000px;
   background: rgba(255, 255, 255, 0.10);
-  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -199,7 +202,8 @@
   line-height: 100%;
   border-radius: 8px;
   background: #cddbff;
-  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   padding: 4px 8px 4px 4px;
   transform: rotate(-3deg);
   bottom: -20px;
@@ -235,7 +239,8 @@
 .main-block__title-card {
   background-color: rgba(255, 255, 255, 0.10);
   border-radius: 16px;
-  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
   position: relative;
 }
 
@@ -518,7 +523,8 @@
 .car-card {
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.10);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
   position: relative;
   width: 190px;
   min-width: 190px;
@@ -675,7 +681,8 @@
 .filter__line {
   border-radius: 32px;
   background: #fff;
-  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
   padding: 12px;
   display: flex;
   justify-content: space-between;
@@ -779,6 +786,8 @@
 
 .filter__switch-info {
   position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   color: #7f8393;
   font-family: Gilroy;
@@ -809,7 +818,8 @@
 .companies__card {
   border-radius: 32px;
   background-color: #fff;
-  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   width: 100%;
   padding: 16px;
   display: flex;
